@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: deploy-to-aks-config
+  namespace: dev
+  labels:
+    app.kubernetes.io/name: deploy-to-aks
+    kubernetes.azure.com/generator: devhub
+data:
